@@ -1,6 +1,6 @@
 services:
 
-  mcp-rag-server:
+  mcp-docs-server:
     build:
       context: .
       dockerfile: Dockerfile

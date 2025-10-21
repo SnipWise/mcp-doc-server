@@ -1,7 +1,7 @@
 services:
 
-  mcp-rag-server:
-    image: k33g/mcp-doc-server:0.0.0
+  mcp-docs-server:
+    image: k33g/mcp-docs-server:0.0.1
     ports:
       - 9095:6060
     environment:

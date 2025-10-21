@@ -1,4 +1,4 @@
-# MCP Doc Server
+# MCP Docs Server
 
 A Model Context Protocol (MCP) server that implements Retrieval-Augmented Generation (RAG) functionality. This server processes markdown documents, creates vector embeddings, and provides semantic search capabilities through MCP tools.
 

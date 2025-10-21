@@ -38,8 +38,8 @@ jobs:
           platforms: linux/amd64,linux/arm64
           push: true
           tags: |
-            ${{ secrets.DOCKER_HUB_USERNAME }}/mcp-doc-server:${{ steps.extract_version.outputs.version }}
-            ${{ secrets.DOCKER_HUB_USERNAME }}/mcp-doc-server:latest
+            ${{ secrets.DOCKER_HUB_USERNAME }}/mcp-docs-server:${{ steps.extract_version.outputs.version }}
+            ${{ secrets.DOCKER_HUB_USERNAME }}/mcp-docs-server:latest
 
       - name: Create Release
         uses: softprops/action-gh-release@v2
